@@ -1,0 +1,87 @@
+.btn-cancel {
+	background-color: #a2a7a7 !important;
+}
+
+button {
+	background-color: #99b3ea;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+  }
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-right: auto;
+	margin-left: auto;
+  }
+
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password],select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+@media (min-width: 576px) { 
+
+	.sgnUp, .can{
+		
+		width: 100%;
+	}
+ }
+
+
+@media (min-width: 768px) { 
+
+	.container {
+		width:500px;
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	  }
+	  .sgnUp, .can{
+		float: left;
+		width: 50%;
+	}
+ }
+
+
+@media (min-width: 992px) { 
+
+	.container {
+		width:500px;
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	  }
+	  .sgnUp, .can{
+		float: left;
+		width: 50%;
+	}
+ }
+
+
+@media (min-width: 1200px) { 
+
+	.container {
+		width:500px;
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	  }
+	  .sgnUp, .can{
+		float: left;
+		width: 50%;
+	}
+ }
